@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/book"
+        android:enabled="true"
+        android:icon="@drawable/booka"
+        android:title="Books"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/notes"
+        android:enabled="true"
+        android:icon="@drawable/bookwhite"
+        android:title="Notes"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/paper"
+        android:enabled="true"
+        android:icon="@drawable/paper"
+        android:title="Paper"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/Practical"
+        android:enabled="true"
+        android:icon="@drawable/pwhite"
+        android:title="Practical"
+        app:showAsAction="always"/>
+</menu>

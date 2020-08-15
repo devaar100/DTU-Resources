@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/ll"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent"
+    tools:context=".DeveloperDetails"
+    android:transitionName="img_transition">
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="260dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <ImageView
+            android:id="@+id/dev_fb"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/facebook" />
+        <ImageView
+            android:id="@+id/dev_gmail"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/gmail" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/dev_img"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bhaiyasquare"/>
+        <TextView
+            android:id="@+id/dev_name"
+            android:textAlignment="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#A1000000"
+            android:padding="5dp"
+            android:text="Aarnav Jindal"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/dev_batch"
+            android:textAlignment="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#A1000000"
+            android:padding="5dp"
+            android:text="COE 3rd Year"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="260dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <ImageView
+            android:id="@+id/dev_git"
+            android:layout_width="30dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/githublogo" />
+        <ImageView
+            android:id="@+id/dev_linkedin"
+            android:layout_width="30dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/linkedinlogo" />
+    </LinearLayout>
+</LinearLayout>
