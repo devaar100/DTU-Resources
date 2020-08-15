@@ -1,3 +1,1 @@
-# DTUResources
-# dtu
 # DTU-Resources
