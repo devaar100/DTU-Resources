@@ -56,7 +56,7 @@ public class AllBranchItems extends AppCompatActivity {
         ((TextView)findViewById(R.id.toolbarfirstyearitemstitle)).setText(itemsubject);
         itemtype=getIntent().getStringExtra("type");
         if(itemtype.equals("Practicals"))
-            itemtype = "Practicals";
+            itemtype = "Practicaxls";
         if(itemtype.equals("Question Paper"))
             itemtype = "Papers";
         databaseReference = FirebaseDatabase.getInstance().getReference().child("AllbranchSubjects").child(itemtype).child(itemsubject);
