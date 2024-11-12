@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -9,13 +9,13 @@ android {
     defaultConfig {
         applicationId "aarnav100.developer.dturesources"
         minSdkVersion 21
-        targetSdkVersion 30
-        versionCode 17
+        targetSdkVersion 33
+        versionCode 20
         multiDexEnabled true
         dexOptions {
             javaMaxHeapSize "4g"
         }
-        versionName "3.0"
+        versionName "3.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
@@ -50,7 +50,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:20.2.4'
     implementation 'com.facebook.android:facebook-android-sdk:4.20.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'com.firebaseui:firebase-ui-database:0.4.1'
+    implementation 'com.firebaseui:firebase-ui-database:1.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
     testImplementation 'junit:junit:4.12'
