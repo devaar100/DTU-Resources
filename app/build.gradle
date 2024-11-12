@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -9,13 +9,13 @@ android {
     defaultConfig {
         applicationId "aarnav100.developer.dturesources"
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode 20
         multiDexEnabled true
         dexOptions {
             javaMaxHeapSize "4g"
         }
-        versionName "3.0.0"
+        versionName "3.0.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
@@ -33,7 +33,7 @@ dependencies {
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.exifinterface:exifinterface:1.2.0'
     implementation 'xyz.danoz:recyclerviewfastscroller:0.1.3'
